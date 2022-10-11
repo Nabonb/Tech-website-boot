@@ -1,0 +1,100 @@
+body{
+    font-family: 'Archivo', sans-serif;
+
+}
+.carousel-item {
+    background: #292727;
+}
+.carousel-item img {
+    opacity: 0.25;
+}
+.carousel-caption h5{
+    font-size: 50px;
+}
+.discover-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.for-div-height{
+    min-height: 218px;
+}
+#bg-color{
+    background: #F4FAFD;
+}
+@media only screen and (max-width:1199px) {
+    .loss-padding{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:993px) {
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .carousel-caption a{
+        font-size: 12px;
+    }
+    .carousel-caption{
+        padding: 0px;
+    }
+    .for-direction{
+        flex-direction: column;
+    }
+    .for-direction img{
+        width: 100%;   
+    }
+    .explore-div{
+        width: 100%;
+    }
+    
+    
+}
+@media only screen and (max-width:420px) {
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    .carousel-caption a{
+        font-size: 10px;
+    }
+    .carousel-caption{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:370px) {
+    .carousel-caption h5{
+        font-size: 14px;
+    }
+    .carousel-caption p{
+        font-size: 7px;
+    }
+    .carousel-caption a{
+        font-size: 7px;
+    }
+    .carousel-caption{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:318px) {
+    .carousel-caption h5{
+        font-size: 9px;
+    }
+    .carousel-caption p{
+        font-size: 6px;
+    }
+    .carousel-caption a{
+        font-size: 5px;
+    }
+    .carousel-caption{
+        padding: 0px;
+    }
+}
