@@ -21,6 +21,9 @@ body{
 #bg-color{
     background: #F4FAFD;
 }
+.register-section{
+    margin-top: 150px;
+}
 @media only screen and (max-width:1199px) {
     .loss-padding{
         padding: 0px;
