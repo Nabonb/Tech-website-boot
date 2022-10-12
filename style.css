@@ -23,6 +23,26 @@ body{
 }
 .register-section{
     margin-top: 150px;
+    margin-bottom: 150px;
+}
+.student-para{
+    font-size: 12px;
+}
+.student-section{
+    margin-bottom: 150px;
+}
+.frequently-asked-section{
+    margin-bottom: 150px;
+}
+.companies-section{
+    margin-bottom: 150px;
+}
+.for-height{
+    min-height: 500px ;
+}
+.footer-para{
+    color: rgb(113, 113, 114);
+    font-weight: bold;
 }
 @media only screen and (max-width:1199px) {
     .loss-padding{
@@ -32,6 +52,9 @@ body{
 @media only screen and (max-width:993px) {
     .carousel-caption h5{
         font-size: 30px;
+    }
+    .companies-section{
+        display: none;
     }
 }
 @media only screen and (max-width:767px) {
@@ -72,6 +95,7 @@ body{
     .carousel-caption{
         padding: 0px;
     }
+    
 }
 @media only screen and (max-width:370px) {
     .carousel-caption h5{
@@ -86,6 +110,7 @@ body{
     .carousel-caption{
         padding: 0px;
     }
+    
 }
 @media only screen and (max-width:318px) {
     .carousel-caption h5{
@@ -100,4 +125,5 @@ body{
     .carousel-caption{
         padding: 0px;
     }
+    
 }
